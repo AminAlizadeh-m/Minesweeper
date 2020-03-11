@@ -1,3 +1,4 @@
 # Minesweeper
 Implement the minesweeper with js
-test
+
+- UI / UX
