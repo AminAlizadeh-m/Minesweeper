@@ -1,11 +1,12 @@
 
 @font-face {
     font-family: "myFont";
-    src: url(fonts\roboto.thin.ttf);
+    src: url(/fonts/roboto.thin.ttf);
 }
 
 * {
     font-family: "myFont";
+    font-weight: 900;
 }
 
 body {
@@ -14,10 +15,30 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
 
 .container h1 {
     margin: auto;
     color: white;
+    font-size: 56px;
 }
+
+.game-controler {
+    display: flex;
+    margin: 20px auto 20px auto;
+}
+
+.fas {
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.445);
+    cursor: pointer;
+}
+
 
